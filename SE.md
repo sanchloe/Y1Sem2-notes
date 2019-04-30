@@ -44,7 +44,7 @@
 - users perspective
 
 ## Differences
-![BFS](.\images\SE.1.png)
+![BFS](./images/SE.1.png)
 
 ---
 # week8.9
@@ -61,7 +61,7 @@
 - In sequential order, no way back
   
 ## Advantages and Disadvantages
-![image](.\c.png)
+![image](./c.png)
 
 ## Waterfall Model
 - requirements are well known
@@ -123,7 +123,7 @@ the process of quickly putting together a working model (a prototype)
 2. for companies building critical systems, prototyping would help them **perform formal verification**. Provide high level of reliability in the system design and implementation
 
 ## Advantages and Disadvantages of Prototyping
-![prototype](.\images\SE.2.png)
+![prototype](./images/SE.2.png)
 
 ## Types of Prototyping
 ## 1. Throw Away Prototype
@@ -173,7 +173,7 @@ Advantages:
 - trade-off speed for accuracy
 - consume resources and have high cost
 
-![comparison](.\images\SE.3.png)
+![comparison](./images/SE.3.png)
 
 ## 6. User Interface Prototyping
 - development of highly ineractive software system with gui
@@ -240,20 +240,20 @@ Actor
     - child use case inherits the behaviour and meaning of the parent use case
     - child may add to or ovveride the behavior of its parent
  
-![usecase](.\images\SE.4.png)
+![usecase](./images/SE.4.png)
 
 2. include: use cases that are **included** as parts of other use cases. enable to factor **comon behaviour**
    - explicitly incorporates the behaviour of another use case
    - included use case occurs as a part of some larger base that **includes it**
    - <<include>> relationship represents common functionality needed in more than one use case
    - arrow points from base use case towards right hand side
-![include](.\images\SE.5.png)
+![include](./images/SE.5.png)
 
 3. extend: us cases that **extend** the behaviour of oher core use cases. enable to factor variants
     - implicitly incorporates the behaviour of another use case at certain points called **extension points**
     - the extension of the use case to include optional functionality
     - arrow points from extended area towards left hand side
-![include](.\images\SE.6.png)
+![include](./images/SE.6.png)
 
 ## 2. Class diagrams
 - describe the static structure of the system: Objects, attributes, associations
@@ -267,10 +267,10 @@ Actor
 2. Generalization
     - connects a subclass to its supercalss
     - denotes an inheritance of attributes and behavior
-![generalization](.\images\SE.7.png)
+![generalization](./images/SE.7.png)
 3. association
     - represent relationship between instances of classes
-![association](.\images\SE.8.png)
+![association](./images/SE.8.png)
    - **aggregation**: specifies a whole-part relationship between an aggregate and a constituent part
       - denotes by a hollow-diamond adornment on the association
       - container and containee relationship
