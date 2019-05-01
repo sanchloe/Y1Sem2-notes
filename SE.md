@@ -61,7 +61,7 @@
 - In sequential order, no way back
   
 ## Advantages and Disadvantages
-![image](./c.png)
+![image](./images/SE.9.png)
 
 ## Waterfall Model
 - requirements are well known
