@@ -1,4 +1,4 @@
-# Week10.11
+# Week 10 and 11
 # Software testing and version Control 
 ## Tips
 - why testing is used
@@ -47,7 +47,7 @@
 ![BFS](./images/SE.1.png)
 
 ---
-# week8.9
+# Week 8 and 9
 # Agile Software Developent
 
 ## Tips
@@ -98,7 +98,7 @@
 7. Frequent reflection by the project team is very important.
 
 ---
-# week6.7
+# Week 6 and 7
 # Prototyping
 ## tips
 - definition of prototyping
