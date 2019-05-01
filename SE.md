@@ -249,19 +249,11 @@ Actor
   
 ![include](./images/SE.5.png)
 
-<<<<<<< HEAD
 3. extend: use cases that **extend** the behaviour of oher core use cases. enable to factor variants
     - implicitly incorporates the behaviour of another use case at certain points called **extension points**
     - the extension of the use case to include optional functionality
     - arrow points from extended area towards left hand side
 
-=======
-1. extend: use cases that **extend** the behaviour of oher core use cases. enable to factor variants
-    - implicitly incorporates the behaviour of another use case at certain points called **extension points**
-    - the extension of the use case to include optional functionality
-    - arrow points from extended area towards left hand side
-  
->>>>>>> 4d5566627667ac48526f46db08eb152326d9e289
 ![include](./images/SE.6.png)
 
 ## 2. Class diagrams
@@ -276,21 +268,12 @@ Actor
 2. Generalization
     - connects a subclass to its supercalss
     - denotes an inheritance of attributes and behavior
-<<<<<<< HEAD
 
-=======
-  
->>>>>>> 4d5566627667ac48526f46db08eb152326d9e289
 ![generalization](./images/SE.7.png)
 
 3. association
-<<<<<<< HEAD
 - represent relationship between instances of classes
 
-=======
-    - represent relationship between instances of classes
-  
->>>>>>> 4d5566627667ac48526f46db08eb152326d9e289
 ![association](./images/SE.8.png)
 
    - **aggregation**: specifies a whole-part relationship between an aggregate and a constituent part
