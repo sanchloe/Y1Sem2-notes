@@ -44,7 +44,7 @@
 - users perspective
 
 ## Differences
-![BFS](./images/SE.1.png)
+![Image](./images/SE.1.png)
 
 ---
 # Week 8 and 9
@@ -61,7 +61,7 @@
 - In sequential order, no way back
   
 ## Advantages and Disadvantages
-![image](./images/SE.9.png)
+![Image](./images/SE.9.png)
 
 ## Waterfall Model
 - requirements are well known
@@ -311,7 +311,7 @@ UML specifies a number of interaction diagrams to model dynamic aspects of the s
 ## Summary
 - UML are useful for **staying organised** and for **communication** with team members or clients
 ---
-# week2.3
+# Week 2 and 3
 # From Requirements to Analysis
 ## tips
 - requirement analysis
