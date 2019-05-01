@@ -310,3 +310,78 @@ UML specifies a number of interaction diagrams to model dynamic aspects of the s
   
 ## Summary
 - UML are useful for **staying organised** and for **communication** with team members or clients
+---
+# week2.3
+# From Requirements to Analysis
+## tips
+- requirement analysis
+- functional and non-functional
+- what is software engineering
+- what are software requirements
+- generic vs customized products
+- four stage process
+
+## What is Software Engineering
+- the application of a systematic, disciplined, quantifiable approach to the development, operation, and maintenance of the software
+    - define software requirements
+    - perform software design
+    - software constructions
+    - software testing
+    - software maintenance tasks
+    - software project management
+
+## Software Development
+Requirement Analysis -> Design -> Construction -> Testing
+
+## Requirement Analysis
+1. identify customers needs
+2. evaluate system for feasibility
+3. perform economic and technical analysis
+4. allocate functions to system elements
+5. establish schedule and constraints
+6. create system definitions
+
+## Software Requirement Analysis Phase
+1. Problem recognition
+2. Evaluation and synthesis (focus is on **WHAT** not HOW)
+3. Modeling
+4. Specification
+5. Review
+
+## Requirements
+- features of system or system function used to fulfill system purpose
+- focus on customer's **needs and problems** not on solutions
+  - requirements definition document ( for customer )
+  - requirements specification document ( for programmer, technical staff )
+
+## Software Requirements
+- defines the functionality of the system
+  - answers the question **"what" , not "how"**
+  - define constraints on the system
+- two kinds of requirements
+    1. functional requirements
+        - describes **what** a software system should do
+    2. non-functional requirements
+        - place constraints on **how** the system will do so
+
+## Software Products ( Generic VS Customized )
+| Generic Products  | Customized Products |
+|:------------------|:--------------------|
+|stand-alone systems that are marketed and sold to any customer who wishes to buy them | software that is commissioned by a specific customer to meet their own needs |
+| **specification of what the software should do** is owned by the software developer and **decisions on software change** are made by the developer | **specification of what the software should do** is owned by the customer and **decisions on software change** are made by the customers |
+| ex: graphics programs, project management tools, CAD software, software for specific markets such as appointment systems for dentists | ex: embedded control systems, air traffic control software, traffic monitoring systems |
+
+## Domain Requirements
+- describe the system characteristics and features that reflect the domain
+- may be new functional requirements, constraints one xisting requirements or define specific computations
+- if doman requirements are not satisfied, the system may be unworkable
+  
+## Four Stage Process
+1. **Feasibility Study**
+   - find out if the current user needs to be satisfied given the available technology and budget
+2. **Requirements Analysis**
+   - find out what stakeholders require from the system
+3. **Requirements Definition**
+   - define the requirements in a form understandabl to the **customer**
+4. **Requirements Specification**
+   - define the requirements in detail in a form understandable to the **developers**
