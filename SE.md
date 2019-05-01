@@ -239,7 +239,6 @@ Actor
 1. generalization: uses cases that are **specialized versions of other use cases**
     - child use case inherits the behaviour and meaning of the parent use case
     - child may add to or ovveride the behavior of its parent
- 
 ![usecase](./images/SE.4.png)
 
 2. include: use cases that are **included** as parts of other use cases. enable to factor **comon behaviour**
@@ -249,10 +248,11 @@ Actor
    - arrow points from base use case towards right hand side
 ![include](./images/SE.5.png)
 
-3. extend: us cases that **extend** the behaviour of oher core use cases. enable to factor variants
+3. extend: use cases that **extend** the behaviour of oher core use cases. enable to factor variants
     - implicitly incorporates the behaviour of another use case at certain points called **extension points**
     - the extension of the use case to include optional functionality
     - arrow points from extended area towards left hand side
+
 ![include](./images/SE.6.png)
 
 ## 2. Class diagrams
@@ -267,9 +267,11 @@ Actor
 2. Generalization
     - connects a subclass to its supercalss
     - denotes an inheritance of attributes and behavior
+
 ![generalization](./images/SE.7.png)
 3. association
-    - represent relationship between instances of classes
+- represent relationship between instances of classes
+
 ![association](./images/SE.8.png)
    - **aggregation**: specifies a whole-part relationship between an aggregate and a constituent part
       - denotes by a hollow-diamond adornment on the association
