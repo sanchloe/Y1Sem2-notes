@@ -239,6 +239,7 @@ Actor
 1. generalization: uses cases that are **specialized versions of other use cases**
     - child use case inherits the behaviour and meaning of the parent use case
     - child may add to or ovveride the behavior of its parent
+
 ![usecase](./images/SE.4.png)
 
 2. include: use cases that are **included** as parts of other use cases. enable to factor **comon behaviour**
