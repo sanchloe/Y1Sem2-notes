@@ -9,10 +9,10 @@
 - Four stage process
 
 ## What is Software Engineering
-- The application of a systematic, disciplined, quantifiable approach to the development, operation, and maintenance of the software:
+- The application of a systematic, disciplined and quantifiable approach to the development, operation, and maintenance of the software:
     1. Define software requirements
     2. Perform software design
-    3. Software constructions
+    3. Software construction
     4. Software testing
     5. Software maintenance tasks
     6. Software project management
@@ -20,7 +20,7 @@
 ## Software Development
 Requirement Analysis > Design > Construction > Testing
 
-## Requirement Analysis
+## Requirement Analysis Objectives
 1. Identify customers needs
 2. Evaluate system for feasibility
 3. Perform economic and technical analysis
@@ -52,8 +52,7 @@ Requirement Analysis > Design > Construction > Testing
         - Place constraints on **how** the system will do so
 
 ## Software Products (Generic VS Customized)
-
-| Generic Products  | Customized Products |
+|Generic Products   |Customized Products  |
 |:------------------|:--------------------|
 |Stand-alone systems that are marketed and sold to any customer who wishes to buy them |Software that is commissioned by a specific customer to meet their own needs|
 |**Specification of what the software should do** is owned by the software developer and **decisions on software change** are made by the developer |**Specification of what the software should do** is owned by the customer and **decisions on software change** are made by the customers |
