@@ -132,8 +132,8 @@ UML specifies a number of interaction diagrams to model dynamic aspects of the s
 ## Types of UML diagrams
 ## 1. Use Case diagrams
 - Describes the functional behavior of the system as seen by the user
-- A set of scenarios tied tgt by a common user goal
-- Scenario is a sequence of stpes describing an interaction between a user and a system 
+- A set of scenarios tied together by a common user goal
+- Scenario is a sequence of steps describing an interaction between a user and a system 
 
 A full use-case model comprise of:
 1. Overview of visible use scenarios in the system
@@ -172,6 +172,11 @@ A full use-case model comprise of:
     - Implicitly incorporates the behaviour of another use case at certain points called **extension points**
     - The extension of the use case to include optional functionality
     - Arrow points from extended area towards left hand side
+    - How to determine if a use case is being extended:
+        1. Is this use case optional?
+        2. Is the base use case complete without this use case?
+        3. Is the execution of this use case conditional?
+        4. Does this use case change the behaviour of the base use case?
 
 ![include](./images/SE.6.png)
 
@@ -344,7 +349,7 @@ Advantages:
 # Software testing and version Control 
 ## Tips
 - Why testing is used
-- What is unit testing, system testing , integration testing
+- What is unit testing, integration testing, and system testing
 - Differences between black and white box
 
 ## Why testing is used
