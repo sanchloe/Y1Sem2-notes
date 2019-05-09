@@ -352,7 +352,7 @@ Advantages:
 # Software testing and version Control 
 ## Tips
 - Why testing is used
-- What is unit testing, system testing , integration testing
+- What is unit testing, integration testing, and system testing
 - Differences between black and white box
 
 ## Why testing is used
