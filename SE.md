@@ -18,9 +18,10 @@
     6. Software project management
 
 ## Software Development
-Requirement Analysis > Design > Construction > Testing
+Requirement Analysis > Design > Development > Testing > Maintenance
 
 ## Requirement Analysis
+Software engineering task bridging the gap between system requirements engineering and software design
 1. Identify customers needs
 2. Evaluate system for feasibility
 3. Perform economic and technical analysis
@@ -42,9 +43,8 @@ Requirement Analysis > Design > Construction > Testing
   - Requirements specification document (for programmer, technical staff)
 
 ## Software Requirements
-- Defines the functionality of the system
+- Defines the functionality and constraints of the system
   - Answers the question **"what" , not "how"**
-  - Define constraints on the system
 - Two kinds of requirements
     1. Functional requirements
         - Describes **what** a software system should do
@@ -73,13 +73,21 @@ Requirement Analysis > Design > Construction > Testing
    - Define the requirements in a form understandable to the **customer**
 4. **Requirements Specification**
    - Define the requirements in detail in a form understandable to the **developers**
+
+## Problems with natural language
+1. Lack of clarity
+2. Requirements Confusion
+   - Functional and non-functional requirements are mixed-up
+3. Requirements mixed
+   - Several different requirements may be expressed together
 ---
 # Week 4
 # Interaction Diagrams
 ## Tips
 - Class diagram, activity diagram
 
-UML specifies a number of interaction diagrams to model dynamic aspects of the system
+## Unified Modeling Language (UML)
+- UML specifies a number of interaction diagrams to model dynamic aspects of the system
   - Messages moving among objects/classes
   - Flow of control among objects
   - Sequences of events
@@ -87,7 +95,7 @@ UML specifies a number of interaction diagrams to model dynamic aspects of the s
 ## Sequence Diagrams
 - Shows **interaction** between objects over a specific **period time**
 - Show the lifetime of an object
-- Describe the flow of the messages, events, actions between objects
+- Describe the flow of the messages, events and actions between objects over a period of time
 - Used during **analysis and design** to document and understand the logical flow of the system
 
 ## Key Parts
@@ -98,7 +106,7 @@ UML specifies a number of interaction diagrams to model dynamic aspects of the s
    - vertical: time (down > forward in time)
 
 ## Activity Diagram
-- Describe how activities are co-ordinated
+- Describe how activities are coordinated
 - Support parallel behaviour
 - Analyse use case, understand workflow across many use cases
 
@@ -126,13 +134,12 @@ UML specifies a number of interaction diagrams to model dynamic aspects of the s
 5. Enables reuse of the design
 
 ## Why use UML?
-1. Use graphical notation: clearer than natural language(imprecise) and code (too detailed)
+1. Use graphical notation: clearer than natural language(imprecise) and code(too detailed)
 2. Gives an **overall view of a system**
 3. Not dependent on any one language or technology
 4. Moves us from fragmentation to standardization
 
-## Types of UML diagrams
-## 1. Use Case diagrams
+## Types of UML diagrams ## 1. Use Case diagrams
 - Describes the **functional behavior** of the system as seen by the user
 - A set of scenarios tied tgt by a common user goal
 - Scenario is a sequence of steps describing an interaction between a user and a system 
@@ -184,7 +191,7 @@ A full use-case model comprise of:
 ![include](./images/SE.6.png)
 
 ## 2. Class diagrams
-- Describe the static structure of the system: Objects, attributes, associations
+- Describe the static structure of the system: Objects, attributes and associations
 - **Structure and behavior** in the use cases
 - Graphical way to illustrate relationships between classes in an Object Oriented System
 - Used for **requirement capture**, end user interaction
@@ -226,7 +233,7 @@ The process of quickly putting together a working model (a prototype) in order t
 
 ## Need for prototyping
 - Enables us to **explore the problem space** with the stake holders
-- As a requirements artifcats to **initially envision** the system
+- As a requirements artifact to **initially envision** the system
 - As a design artifact that enables us to **explore the solution space** of your system
 - A vehicle for you to **communicate the possible UI** design(s) of your system
 - A potential foundation from which to **continue developing the system**
@@ -258,10 +265,10 @@ The process of quickly putting together a working model (a prototype) in order t
 
 |Advantages|Disadvantages|
 |:---------|:------------|
-|Always looking for new ways to improve the system|avoid documenting the requirements of the system|
-|Increases the chance of **having the client satisfied** with the working system|management is required|
+|Always looking for new ways to improve the system|Avoid documenting the requirements of the system|
+|Increases the chance of **having the client satisfied** with the working system|Management is required|
 |When the requirements are not defined|Long term maintenance can be expensive|
-|Quickly delivery of the system|Uncertain design idea's
+|Quickly delivery of the system|Uncertain design idea's|
 | |Information can be lost through so many improvement changes|
 
 ## 3. Low-Fidelity Prototyping
@@ -278,7 +285,8 @@ The process of quickly putting together a working model (a prototype) in order t
 - Understandability of interaction elements can be validated
 
 Advantages:
-- The impression of an already functioning application makes it easy for all stakeholders to derive processes from the range of features. This way the solution can be developed in the sense of the prototype.
+- The impression of an already functioning application makes it easy for all stakeholders to derive processes from the range of features
+- This way the solution can be developed in the sense of the prototype.
 
 ## 5. High-Fidelity Prototyping
 - The core functionality of the products user interface
