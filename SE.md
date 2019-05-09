@@ -9,10 +9,10 @@
 - Four stage process
 
 ## What is Software Engineering
-- The application of a systematic, disciplined and quantifiable approach to the development, operation, and maintenance of the software:
+- The application of a systematic, disciplined, quantifiable approach to the development, operation, and maintenance of the software:
     1. Define software requirements
     2. Perform software design
-    3. Software construction
+    3. Software constructions
     4. Software testing
     5. Software maintenance tasks
     6. Software project management
@@ -20,7 +20,7 @@
 ## Software Development
 Requirement Analysis > Design > Construction > Testing
 
-## Requirement Analysis Objectives
+## Requirement Analysis
 1. Identify customers needs
 2. Evaluate system for feasibility
 3. Perform economic and technical analysis
@@ -52,7 +52,8 @@ Requirement Analysis > Design > Construction > Testing
         - Place constraints on **how** the system will do so
 
 ## Software Products (Generic VS Customized)
-|Generic Products   |Customized Products  |
+
+| Generic Products  | Customized Products |
 |:------------------|:--------------------|
 |Stand-alone systems that are marketed and sold to any customer who wishes to buy them |Software that is commissioned by a specific customer to meet their own needs|
 |**Specification of what the software should do** is owned by the software developer and **decisions on software change** are made by the developer |**Specification of what the software should do** is owned by the customer and **decisions on software change** are made by the customers |
@@ -60,7 +61,7 @@ Requirement Analysis > Design > Construction > Testing
 
 ## Domain Requirements
 - Describe the system characteristics and features that reflect the domain
-- May be new functional requirements, constraints one xisting requirements or define specific computations
+- May be new functional requirements, constraints on existing requirements or define specific computations
 - If doman requirements are not satisfied, the system may be unworkable
 
 ## Four Stage Process
@@ -77,10 +78,11 @@ Requirement Analysis > Design > Construction > Testing
 # Interaction Diagrams
 ## Tips
 - Class diagram, activity diagram
+
 UML specifies a number of interaction diagrams to model dynamic aspects of the system
-    - Messages moving among objects/classes
-    - Flow of control among objects
-    - Sequences of events
+  - Messages moving among objects/classes
+  - Flow of control among objects
+  - Sequences of events
 
 ## Sequence Diagrams
 - Shows **interaction** between objects over a specific **period time**
@@ -131,27 +133,28 @@ UML specifies a number of interaction diagrams to model dynamic aspects of the s
 
 ## Types of UML diagrams
 ## 1. Use Case diagrams
-- Describes the functional behavior of the system as seen by the user
+- Describes the **functional behavior** of the system as seen by the user
 - A set of scenarios tied tgt by a common user goal
-- Scenario is a sequence of stpes describing an interaction between a user and a system 
+- Scenario is a sequence of steps describing an interaction between a user and a system 
 
 A full use-case model comprise of:
-1. Overview of visible use scenarios in the system
-2. Actors that interact with the system
-3. Linkages between use cases
-    - A document describing the use case in details
-    Actor
+1. **Overview of visible use scenarios** in the system
+2. **Actors** that interact with the system
+3. **Linkages** between use cases
+   
+- A document describing the use case in details :
+ 1. Actor
     - A role that a user plays with respect to the system: user, external system(another system)
     - Has a unique name and an optional description
 
 ## Why use use cases?
-1. For functional requirements analysis and specification
+1. For **functional requirements analysis and specification**
 2. A use case is a description of **how a user will use the system-to-be to accomplish business goals**
 3. Use cases work well as an analytical tool
 4. Easy to understand, both for the business and from the technological point of view
-    - Used to gather requirements of a system
-    - Used to get an outside view of a system
-    - Identify external and internal factors influencing the system
+    - Used to **gather requirements of a system**
+    - Used to get an **outside view of a system**
+    - Identify **external and internal factors** influencing the system
 
 ## Relationships betweeen use cases
 1. Generalization: uses cases that are **specialized versions of other use cases**
