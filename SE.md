@@ -175,6 +175,11 @@ A full use-case model comprise of:
     - Implicitly incorporates the behaviour of another use case at certain points called **extension points**
     - The extension of the use case to include optional functionality
     - Arrow points from extended area towards left hand side
+    - How to determine if a use case is being extended:
+        1. Is this use case optional?
+        2. Is the base use case complete without this use case?
+        3. Is the execution of this use case conditional?
+        4. Does this use case change the behaviour of the base use case?
 
 ![include](./images/SE.6.png)
 
