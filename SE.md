@@ -143,7 +143,7 @@ Software engineering task bridging the gap between system requirements engineeri
 ## Types of UML diagrams
 ## 1. Use Case diagrams
 - Describes the **functional behavior** of the system as seen by the user
-- A set of scenarios tied tgt by a common user goal
+- A set of scenarios tied together by a common user goal
 - Scenario is a sequence of steps describing an interaction between a user and a system 
 
 A full use-case model comprise of:
@@ -175,12 +175,12 @@ A full use-case model comprise of:
 2. Include: use cases that are **included** as parts of other use cases. enable to factor **comon behaviour**
    - Explicitly incorporates the behaviour of another use case
    - Included use case occurs as a part of some larger base that **includes it**
-   - <\<include\>> relationship represents common functionality needed in more than one use case
+   - `<<include>>` relationship represents common functionality needed in more than one use case
    - Arrow points from base use case towards right hand side
 
 ![include](./images/SE.5.png)
 
-3. Extend: use cases that **extend** the behaviour of oher core use cases. Enable to factor variants
+3. Extend: use cases that `<<extend>>` the behaviour of oher core use cases. Enable to factor variants
     - Implicitly incorporates the behaviour of another use case at certain points called **extension points**
     - The extension of the use case to include optional functionality
     - Arrow points from extended area towards left hand side
