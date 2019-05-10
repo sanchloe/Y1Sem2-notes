@@ -12,7 +12,7 @@
 - The application of a systematic, disciplined, quantifiable approach to the development, operation, and maintenance of the software:
     1. Define software requirements
     2. Perform software design
-    3. Software constructions
+    3. Software construction
     4. Software testing
     5. Software maintenance tasks
     6. Software project management
