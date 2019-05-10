@@ -207,8 +207,8 @@ A full use-case model comprise of:
 
 ![generalization](./images/SE.7.png)
 
-- 3. Association
-- Represent relationship between instances of classes
+3. Association
+    - Represent relationship between instances of classes
 
 ![association](./images/SE.8.png)
 
