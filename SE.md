@@ -228,7 +228,7 @@ A full use-case model comprise of:
 - Advantages and disadvantages
 
 ## Definition
-The process of quickly putting together a working model (a prototype) in order to **test various aspects** of a **design, illustrate ideas** or features and gather **early user feedback** 
+The process of quickly putting together a working model(a prototype) in order to **test various aspects** of a **design, illustrate ideas** or features and gather **early user feedback** 
 
 ## Need for prototyping
 - Enables us to **explore the problem space** with the stake holders
@@ -248,7 +248,7 @@ The process of quickly putting together a working model (a prototype) in order t
 ## 1. Throw Away Prototype
 - Developed from the **initial requirements** but is not used for the final project
 - Written specifications of the requirements
-- Some believe that this type is a **waste of time** bc u dont use it
+- Some believe that this type is a **waste of time** because it won't be used in the final project
 - Concentrates experimenting with the customer requirements that are poorly understood
 
 |Advantages|Disadvantages|
@@ -257,7 +257,7 @@ The process of quickly putting together a working model (a prototype) in order t
 |Has a short project timeline|Only for a limited purpose|
 
 ## 2. Evolutionary Prototype
-- Most funcamental form of prototyping
+- Most fundamental form of prototyping
 - Build a robust prototype and constantly improve it
 - Objective to deliver a working system to the end user
 - Prototype eventually become the product
@@ -266,7 +266,7 @@ The process of quickly putting together a working model (a prototype) in order t
 |:---------|:------------|
 |Always looking for new ways to improve the system|Avoid documenting the requirements of the system|
 |Increases the chance of **having the client satisfied** with the working system|Management is required|
-|When the requirements are not defined|Long term maintenance can be expensive|
+|Model can be used even when requirements are not defined|Long term maintenance can be expensive|
 |Quickly delivery of the system|Uncertain design idea's|
 | |Information can be lost through so many improvement changes|
 
