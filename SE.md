@@ -9,7 +9,7 @@
 - Four stage process
 
 ## What is Software Engineering
-- The application of a systematic, disciplined, quantifiable approach to the development, operation, and maintenance of the software:
+- The application of a systematic, disciplined, quantifiable approach to the development, operation, and maintenance of software:
     1. Define software requirements
     2. Perform software design
     3. Software construction
