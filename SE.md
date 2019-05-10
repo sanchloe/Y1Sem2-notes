@@ -97,6 +97,7 @@ Software engineering task bridging the gap between system requirements engineeri
 - Show the lifetime of an object
 - Describe the flow of the messages, events and actions between objects over a period of time
 - Used during **analysis and design** to document and understand the logical flow of the system
+- Describes the dynamic behavoir between objects of the system
 
 ## Key Parts
 1. Participants: object or entity that acts in the diagram
@@ -139,7 +140,8 @@ Software engineering task bridging the gap between system requirements engineeri
 3. Not dependent on any one language or technology
 4. Moves us from fragmentation to standardization
 
-## Types of UML diagrams ## 1. Use Case diagrams
+## Types of UML diagrams
+## 1. Use Case diagrams
 - Describes the **functional behavior** of the system as seen by the user
 - A set of scenarios tied tgt by a common user goal
 - Scenario is a sequence of steps describing an interaction between a user and a system 
@@ -215,9 +217,6 @@ A full use-case model comprise of:
       - Container and containee relationship
    - **Composition** : Indicates a strong ownership and coincident lifetime of parts by the whole
       - Denoted by a filled-diamond adornment on the association
-
-## 3. Sequence diagrams
-- Describes the dynamic behavoir between objects of the system
 ---
 # Week 6 and 7
 # Prototyping
